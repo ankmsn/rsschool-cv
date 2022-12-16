@@ -45,6 +45,9 @@ background-color: #333A4A;
     text-decoration: none;
   }
 
+  .nav-link:hover {
+    color:#ff0000 ;}
+
 #photo {
     background-color: #333A4A; 
     display: flex;
@@ -83,17 +86,13 @@ background-color: #333A4A;
  .links {
     color: #3d3d3d;
     text-decoration: none;
+    transition: color 0.3s;
  }
 
- .link {
-    text-decoration: none;
-    color: #829985;
-    transition: color 0.5s;
+ .links:hover {
+  color: #ff0000;
   }
-  
-  .link:hover {
-    color: #5d7260;
-  }
+
 
  html {
     scroll-behavior: smooth; 
@@ -156,3 +155,23 @@ background-color: #333A4A;
     margin: 0px;
       }
 
+      .footer-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+      }
+     
+      .footer-link {
+        padding: 0 20px;
+        line-height: 50px;
+        transition: .3s;
+        color: #3d3d3d;
+        font-weight: 400;
+        font-size: 18px;
+        text-decoration: none;
+      }
+    
+      .footer-link:hover {
+        color:#ff0000 ;}
