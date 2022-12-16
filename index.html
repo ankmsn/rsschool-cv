@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <title>cv</title>
+  </head>
+    <body>
+
+      <header class = "header">
+        <div class="container">
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+              <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main class = "main">
+          <div class="container">
+          <div class="main-container">
+
+          <section class="section" id="photo">
+            <img src="assets/img/photo.jpg" alt="my photo" class="radius">
+          </section>
+
+          <section class="section" id="name">
+            <h1 class="title-name">Andrii Khomyshyn</h1>
+            <h2 class="bold">Marketing Designer</h2>
+          </section>
+
+          <section class="section" id="contacts">
+            <p class="section-title">Contacts</p>
+            <ul>
+              <li><a class="links" href="https://www.behance.net/khomyshyn">Behance</a></li>
+              <li><a class="links" href="https://github.com/ankmsn">Github</a></li>
+            </ul>
+          </section>
+
+          <section class="section" id="profile">
+            <p class="section-title">Profile</p>
+            <p>Experienced Designer with over ten 15
+              of experience creativity marketing projects
+              from conception to completion.
+              Organization, responsibility, attention to detail. Project timing
+              and meeting deadlines. Always ready to improve existing skills
+              and gain additional knowledge.</p>
+          </section>
+
+          <section class="section" id="skills">
+            <p class="section-title">Skills</p>
+            <ul>
+              <li>Adobe Illustrator</li>
+              <li>Adobe Photoshop</li>
+              <li>Adobe InDesign</li>
+              <li>Adobe Lightroom</li>
+              <li>Adobe Premier</li>
+              <li>Adobe AfterEffects</li>
+              <li>Figma</li>
+              <li>Blender 3D</li>
+              <li>Using a graphics tablet</li>
+              <li>Base HTML, CSS, JavaScript</li>
+              </ul>
+
+              <p class="section-title" id="code">Code</p>
+              <p class="bold">6kyu codewars</p>
+              <code><pre>
+                var runLengthEncoding = function (str) {
+                let Arr = [];
+                let number = 1;
+                for (let i = 1; i &lt;= str.length; i++) {
+                  if (str[i] === str[i - 1]) {
+                    number++;
+                  } else {
+                    Arr.push([number, str[i - 1]]);
+                    number = 1;
+                  }
+                }
+                return Arr;
+              };
+            </pre></code>
+
+              <p class="section-title" id="languages">Languages</p>
+              <ul>
+                <li>English B1</li>
+              </ul>
+
+          </section>
+
+          <section class="section" id="experience">
+            <p class="section-title">Work experience</p>
+            <p class="bold">Designer Freelancer</p>
+            <p class="date">2018 &mdash; Present time</p>
+            <ul>
+              <li>Launch and promotion of Internet projects</li>
+              <li>Design support for an existing business</li>
+              <li>Creation of vector illustrations and patterns for stock markets</li>
+            </ul>
+
+            <p class="bold">Marketing Designer, LLC ALLO, Ukraine</p>
+            <p class="date">2013 &mdash; 2018</p>
+            <ul>
+              <li>Career from graphic designer to chief designer and creative manager</li>
+              <li>Rebranding, new brand book and store format</li>
+              <li>Launch of advertising campaigns every 2-3 weeks</li>
+              <li>CGraphic materials for the site <a class="links" href="https://allo.ua/">allo.ua</a>, 10 million user coverage</li>
+              <li>Printed products, instructions, banners for more than 500 stores</li>
+              <li>Advertising in social networks, Google, email</li>
+              <li>Printed products from labels and packaging to billboards and firewalls</li>
+              <li>Working with global brands in compliance with requirements and brand books</li>
+            </ul>
+
+            <p class="bold">Graphic Designer, Retoucher PhotoCare, Denmark</p>
+            <p class="date">2007 &mdash; 2013</p>
+            <ul>
+              <li>Retouching and restoration of digital images</li>
+              <li>Processing and preparation of images for web sites and catalogs</li>
+              <li>Creation of static, dynamic and interactive banners</li>
+              <li>Logo design</li>
+            </ul>
+
+              <p class="section-title" id="education">Education</p>
+              <p>Specialist, Dnepropetrovsk National University</p>
+              <p class="date">2001 &mdash; 2007</p>
+
+          </section>
+
+       
+        
+        </div>
+      </div>
+      </main>
+
+      <footer class = "footer">
+        <div class="container">
+          <ul class="footer-list">  
+            <li><img src="assets/svg/rs_school_js.svg" alt="logo" width="100"></li>
+            <li><a href="https://rs.school/js/" class="footer-link">Course "JavaScript/Front-end"</a></li>
+            <li><a href="https://github.com/ankmsn" class="footer-link">My Github</a></li>
+            <li><h2 class="bold">2022</h2></li>
+          </ul>
+      </div>
+      </footer>
+
+      </body>
+  </html>
