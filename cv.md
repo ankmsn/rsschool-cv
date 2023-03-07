@@ -1,30 +1,41 @@
-### Andrii Khomyshyn
+# **Andrii Khomyshyn**
 
-Graphic Designer
+## Junior Frontend Developer
 
-![my photo](photo.jpg)
+![my photo](photo.jpg/)
+
+
+I study Frontend development: JavaScript, HTML, CSS. I also have over 10 years of experience as a graphic designer: branding, advertasing, vector, raster, creating patterns, icons, graphic elements and illustrations.
+I always tried to structure, streamline and automate the process: actions, scripts.  
+ My dream is to join a team with which I will participate in projects of global importance, combining previous experience, current and newly acquired knowledge.  
+My personal qualities are organization, responsibility, attention to detail. Project timing and meeting deadlines.  
+ Always improve existing skills and gain additional knowledge.
 
 ---
 
-**Contacts:**
+## Contacts:
 
-- GitHub: [ankmsn](https://github.com/ankmsn)
+- Portugal  
+- E-mail: khomstyle@gmail.com  
+- Telegram: [@ankmsn](https://t.me/ankmsn)  
+- GitHub: [ankmsn](https://github.com/ankmsn)  
 - Portfolio: [behance](https://www.behance.net/khomyshyn)
 
-**About me:**
+---
 
-I am graphic designer with more than 10 year experience: branding, advertasing, vector and raster graphics.
+## Skills:
 
-**Skills:**
-
-- Adobe Illustrator
-- Adobe Photoshop
-- Adobe AfterEffects
-- Adobe Premier
+- JavaScript
+- HTML, CSS
+- Git, GitHub
 - Figma
-- Blender 3D
+- Adobe Illustrator  
+- Adobe Photoshop
 
-**Code Example:**
+---
+## Code Example:
+
+**I have level 5kyu on Codewars**
 
 ```
 var runLengthEncoding = function (str) {
@@ -41,12 +52,22 @@ var runLengthEncoding = function (str) {
   return Arr;
 }
 ```
+---
+## Experience:
+- 2018 - present time. Freelance, own projects
+- 2013 - 2018 LLC ALLO, Graphic designer
 
-**Experience:**
-2013-2018 LLC ALLO, Graphic designer
+---
 
-**Education:**
-Dnipropetrovsky National University
+## Education:
 
-**English:**
-B1 Intermediate
+- JavaScript, Front-end Course / The Rolling Scopes (EPAM)
+- Dnipropetrovsky National University
+
+---
+## Languages:
+
+- Ukrainian Native
+- Russian Native
+- English B1
+- Portuguese A1
